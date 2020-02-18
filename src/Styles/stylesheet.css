@@ -1,0 +1,85 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%; 
+    background-color: #f1f1f1;
+    height: -webkit-fill-available;
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  } 
+
+  .main{
+    background-color:white;
+    height: -webkit-fill-available;
+    width: 100%;
+  }
+
+  h2{
+    text-align: center;    
+  }
+  
+  .drag{
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid lightseagreen;
+    width: 40%;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px grey;
+    display: inline-block;
+  }
+ 
+  .date{
+    float: right;
+     display:block; 
+     margin-top: 5%;
+  }
+
+  label{
+    color:rgb(24, 138, 132);
+    size: 5px ;   
+    font: bold;   
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+
+  .selectAll{
+    width: 1.8em;
+    height: 1.8em;
+    background-color: white;
+    border-radius: 60%;
+    vertical-align: middle;
+    border: 2px solid black;
+  }
+
+  .checkbox-round {
+    width: 1.8em;
+    height: 1.8em;
+    background-color: white;
+    border-radius: 60%;
+    vertical-align: middle;
+    border: 2px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color:coral;
+}
