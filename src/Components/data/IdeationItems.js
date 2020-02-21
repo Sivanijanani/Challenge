@@ -1,22 +1,22 @@
-const items= [{
+const ideationItems= [{
     id: 0,
-    description: "Team 1",
+    description: "Problem",
     isChecked:false,
     startDate: new Date()
    
   }, {
     id: 1,
-    description: "Team 2",
+    description: "Solution",
     isChecked:false,
     startDate: new Date()
 
    
   }, {
     id: 2,
-    description: "Team 3",
+    description: "Team",
     isChecked:false,
     startDate: new Date()
 
   }]
 
-  export default items
+  export default ideationItems

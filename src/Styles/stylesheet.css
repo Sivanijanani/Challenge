@@ -6,7 +6,7 @@ ul {
     padding: 0;
     width: 10%; 
     background-color: #f1f1f1;
-    height: -webkit-fill-available;
+    height: 950px;
     float: left;
   }
   
@@ -21,6 +21,7 @@ ul {
     list-style: none;
   } 
 
+  
   .main{
     background-color:white;
     height: -webkit-fill-available;
@@ -34,12 +35,12 @@ ul {
   .drag{
     margin-left: 5%;
     margin-bottom: 20px;
-    margin-top: 2%;
+    margin-top: 1%;
     border-radius: 15px;
     padding: 20px;
     border: 2px solid lightseagreen;
     width: 40%;
-    height: 100px;
+    height: 70px;
     background-color: aliceblue;
     box-shadow: 10px 10px 5px grey;
     display: inline-block;
@@ -49,6 +50,11 @@ ul {
     float: right;
      display:block; 
      margin-top: 5%;
+    
+  }
+
+  .duedate{
+    margin-left: 80%
   }
 
   label{
@@ -82,4 +88,38 @@ ul {
 
 .checkbox-round:checked {
     background-color:coral;
+}
+
+div.scroll { 
+  margin:4px, 4px; 
+  padding:4px; 
+  /* background-color: green;  */
+  width: 80%; 
+  height: 350px; 
+  overflow-x: hidden; 
+  overflow-x: auto; 
+  text-align:justify; 
+  position: sticky;
+} 
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px blue; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
 }
